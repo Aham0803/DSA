@@ -29,7 +29,7 @@ int main()
                 cout << i<<" ";
             }
         }
-        
+
         cout << endl;
     }
     for (int i = n-1; i >= 1; i--)
@@ -45,8 +45,9 @@ int main()
                 cout << i<<" ";
             }
         }
-        
+
         cout << endl;
     }
     return 0;
 }
+
