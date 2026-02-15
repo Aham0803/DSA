@@ -41,22 +41,17 @@ int series()
     cin >> N1;
     int N2;
     cin >> N2;
-    int n;
-    int z = 3*n+2 % N2 != 0;
-    if (z <= N1)
-    {
-        
-        for (n = 1; n <= z; n++)
-        {
+   int n = 1 ;
+   int count = 0;
 
-            int k = 3 * n + 2;
-            if (k % N2 != 0)
-            {
-                cout << k << endl;
-            }
-        }
+   while (count<N1){
+    int k = 3*n+2;
+    if(k % N2 != 0){
+        cout << k<< endl;
+        count++;
     }
-
+    n++;
+   }
     return 0;
 }
 int main()

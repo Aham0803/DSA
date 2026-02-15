@@ -9,24 +9,23 @@
 #include <iostream>
 using namespace std;
 
-int LCM()
-{
-    int N1;
-    cin >> N1;
-    int N2;
-    cin >> N2;
-int i = 1;
-   while( i){
-
-   if(N1%i == 0 && N2%i == 0)
-        cout << i;
-        i++;
-    }
-
-    return 0;
-}
 int main()
 {
-LCM();
+
+    int a, b;
+    cin >> a >> b;
+
+    int k = max(a, b);
+
+    while (true)
+    {
+        if (k % a == 0 && k % b == 0)
+        {
+            cout <<k;
+            break;
+        }
+        k += max(a, b);
+    }
+
     return 0;
 }
