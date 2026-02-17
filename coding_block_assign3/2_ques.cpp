@@ -12,7 +12,7 @@ int main()
     int digit;
     cin >> digit;
     int count = 0;
-
+    
     while (n > 0)
     {
         int k = n % 10;
@@ -20,9 +20,9 @@ int main()
         {
             count++;
         }
-        n = n/10;
-
+        n = n / 10;
+        cout << count;
     }
-    cout << count;
+
     return 0;
 }
