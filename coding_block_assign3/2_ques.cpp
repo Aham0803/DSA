@@ -5,24 +5,51 @@
 
 #include <iostream>
 using namespace std;
-int main()
+int digit()
 {
     int n;
     cin >> n;
     int digit;
     cin >> digit;
     int count = 0;
-    
-    while (n > 0)
+    while (n != 0)
     {
         int k = n % 10;
         if (k == digit)
         {
             count++;
         }
-        n = n / 10;
-        cout << count;
+        n = n/10;
     }
-
+    cout << count;
     return 0;
 }
+int main()
+{
+digit();
+    return 0;
+}
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     int digit;
+//     cin >> digit;
+//     int count = 0;
+
+//     while (n > 0)
+//     {
+//         int k = n % 10;
+//         if (k == digit)
+//         {
+//             count++;
+//         }
+//         n = n / 10;
+//         cout << count;
+//     }
+
+//     return 0;
+// }

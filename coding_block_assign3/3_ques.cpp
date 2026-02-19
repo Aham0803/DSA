@@ -1,5 +1,7 @@
 // Take N as input, Calculate it's reverse also Print the reverse.
 
+
+
 #include <iostream>
 using namespace std;
 
