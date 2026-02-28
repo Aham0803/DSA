@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 int main()
 {
     int r, c;
@@ -12,7 +11,7 @@ int main()
         for (int j = 0; j < c; j++)
         {
             cin >> arr[i][j];
-        }
+        }   
     }
     int left = 0, right = c - 1, top = 0, bottom = r - 1;
     while (left <= right and top <= bottom)
