@@ -88,12 +88,12 @@ int main()
     int sum = 0;
     int factor = 0;
     sum = digitSum(n);
-    for (int i = 2; i <= n; i++)
+    for (int i = 2; i < n; i++)
     {
         while (n % i == 0)
         {
             if (prime(i))
-            {
+            { 
                 factor += digitSum(i);
             }
             n = n / i;
