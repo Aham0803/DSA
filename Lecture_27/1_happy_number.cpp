@@ -20,6 +20,7 @@ bool isHappy(int n)
             n = n / 10;
         }
     }
+
     return isHappy(sum);
 }
 int main()
@@ -27,5 +28,11 @@ int main()
 
     int n;
     cin >> n;
-    isHappy(n);
+    if (isHappy(n))
+    {
+        cout << "happy";
+    }
+    else{
+        cout <<"not";
+    }
 }
