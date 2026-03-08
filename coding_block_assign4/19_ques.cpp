@@ -19,15 +19,19 @@ int main(){
         cin >> arr[i];
     }
 
-    for(int i = 0 ; i< n ; i++){
-        int product = 1;
-      for(int j = 0 ; j < n ; j++){
-        if(j != i){
-            product *= arr[j];
-        }
-      }
-       cout << product << " ";
-    }
+    // for(int i = 0 ; i< n ; i++){
+    //     int product = 1;
+    //   for(int j = 0 ; j < n ; j++){
+    //     if(j != i){
+    //         product *= arr[j];
+    //     }
+    //   }
+    //    cout << product << " ";
+    // }
 
+
+   int left = 0;
+
+   for(int i )
 return 0;
 }
