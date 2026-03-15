@@ -9,7 +9,6 @@ vector<int> pairsum(vector<int> arr, int target)
     int n = arr.size();
 
     int i = 0, j = n - 1;
-
     while (i < j)
     {
         int pairSum = arr[i] + arr[j];
