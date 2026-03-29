@@ -14,11 +14,9 @@ int main()
     cin >> m >> n;
     int b[m][n] = {};
     for (int i = 0; i < m; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
+    {  for (int j = 0; j < n; j++) {
             cout << b[i][j] << " ";
-        }
+         }
         cout << endl;
     }
     cout << g << endl;
