@@ -15,7 +15,7 @@ int gcdOfOddEvenSums()
         }
         else
         {
-            EvenSum += i;
+              EvenSum += i;
         }
     }
     for (int i = 0; i <= min(OddSum, EvenSum); i++)
